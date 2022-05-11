@@ -21,11 +21,6 @@ cp src-blurimpl/AndroidXBlurImpl.java src/com/github/mmin18/widget/
 cd build/intermediates/javac/release/classes/
 jar uf ../../../../../libs/blurimpl.jar com/github/mmin18/widget/AndroidXBlurImpl.class
 cd $BASEDIR
-jar uf libs/blurimpl.jar src/com/github/mmin18/widget/AndroidStockBlurImpl.java
-jar uf libs/blurimpl.jar src/com/github/mmin18/widget/BlurImpl.java
-jar uf libs/blurimpl.jar src/com/github/mmin18/widget/EmptyBlurImpl.java
-jar uf libs/blurimpl.jar src/com/github/mmin18/widget/RealtimeBlurView.java
-
 rm src/com/github/mmin18/widget/AndroidXBlurImpl.java
 
 cp gradle.properties.none ../gradle.properties
